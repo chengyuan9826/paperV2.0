@@ -1,0 +1,1145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>在线做题</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/zepto.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/hw_online.js"></script>
+    <script src="js/layer.js"></script>
+    <script src="js/pinchzoom.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="aside_header">
+        <div class="qusetion_msg">名校试卷</div>
+        <div class="question_count"><span class="question_num" id="question_num">1</span>/<span class="question_sum">10</span></div>
+    </header>
+    <aside class="container_aside">
+        <div class="slider-box">
+            <ul class="section_list clearfix">
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>一、1甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            <img src="images/image001.png" alt="">
+                            <img src="images/conimg1.png" alt="">
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span><img src="images/hot.png" alt="">Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="wrong question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="right question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【多选】</span>二、2第二题为多选题，<img src="images/hot.png" alt="">所有多选题在ul.question_list 标签的基础上添加question_duo_list类()。
+                        </div>
+                        <!--TODO 多选题型添加 question_duo_list类 如下-->
+                        <ul class="question_list question_duo_list">
+                            <li class="ui-row-flex">
+                                <output class="correct question_choose">A</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            三、这是个主观题There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday,There are ___ days ___ a
+                            week.
+                            They are ___ , Tuesday,There are ___ days ___ a week. They are ___ , Tuesday,
+                        </div>
+                    </div>
+                   <div class="small-box">
+                            <ul class="small-questions clearfix">
+                                <li class="aside_section">
+                                    <div class="aside_scroll">
+                                        <div class="question_title">
+                                            <span class="title_type">【单选】</span>3、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                        </div>
+                                        <ul class="question_list question_dan_list">
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">A</output>
+                                                <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose correct ">B</output>
+                                                <span>我是超长选项我是超长选项我是超长选项</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">C</output>
+                                                <span>Monday1</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="aside_section">
+                                    <div class="aside_scroll">
+                                        <div class="question_title">
+                                            <span class="title_type" data-type="dan">【单选】</span>4、第二个小题
+                                        </div>
+                                        <ul class="question_list question_dan_list">
+                                            <li class="ui-row-flex">
+                                                <output class="correct question_choose">A</output>
+                                                <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">B</output>
+                                                <span>我是超长选项我是超长选项我是超长选项</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">C</output>
+                                                <span>Monday1</span>
+                                            </li>
+                                        </ul>
+                                        <div class="resolve">
+                                            <div class="resolve-result">
+                                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                            </div>
+                                            <div class="analytic">
+                                                <span class="tit">【解析】</span>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="aside_section">
+                                    <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span> 5、小题的第三个( )。
+                                    </div>
+                                    <ul class="question_list question_duo_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            Monday1
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                   </div>
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            四、有下列四种实验设计及操作，实验过程中其现象不足以说明CO2与NaOH溶液发生了反应的是：
+                            <img src="images/conimg1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box">
+                            <ul class="small-questions clearfix">
+                                <li class="aside_section">
+                                    <div class="aside_scroll">
+                                        <div class="question_title">
+                                            <span class="title_type">【单选】</span>6甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                        </div>
+                                        <ul class="question_list question_dan_list">
+                                            <li class="ui-row-flex">
+                                                <output class="correct question_choose">A</output>
+                                                <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">B</output>
+                                                <span>我是超长选项我是超长选项我是超长选项</span>
+                                            </li>
+                                            <li class="ui-row-flex">
+                                                <output class="question_choose">C</output>
+                                                <span>Monday1</span>
+                                            </li>
+                                        </ul>
+                                        <div class="resolve">
+                                            <div class="resolve-result">
+                                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                            </div>
+                                            <div class="analytic">
+                                                <span class="tit">【解析】</span>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>
+                            7、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。 甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span>会做</span></li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>不会做</span></li>
+                        </ul>
+                        <div class="question-analytic">
+                            <div class="analysis_btn">
+                                <button class="btn">查看解析</button>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                            </div>
+                        </div>
+                   </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>一、1甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。<img src="images/image001.png" alt="">
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span><img src="images/hot.png" alt="">Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="wrong question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="right question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【多选】</span>二、2第二题为多选题，<img src="images/hot.png" alt="">所有多选题在ul.question_list 标签的基础上添加question_duo_list类()。
+                        </div>
+                        <!--TODO 多选题型添加 question_duo_list类 如下-->
+                        <ul class="question_list question_duo_list">
+                            <li class="ui-row-flex">
+                                <output class="correct question_choose">A</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            三、这是个主观题There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday,There are ___ days ___ a
+                            week.
+                            They are ___ , Tuesday,There are ___ days ___ a week. They are ___ , Tuesday,
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>3、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose correct ">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type" data-type="dan">【单选】</span>4、第二个小题
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span> 5、小题的第三个( )。
+                                    </div>
+                                    <ul class="question_list question_duo_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            Monday1
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            四、有下列四种实验设计及操作，实验过程中其现象不足以说明CO2与NaOH溶液发生了反应的是：
+                            <img src="images/conimg1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>6甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>
+                            7、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。 甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span>会做</span></li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>不会做</span></li>
+                        </ul>
+                        <div class="question-analytic">
+                            <div class="analysis_btn">
+                                <button class="btn">查看解析</button>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>一、1甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。<img src="images/image001.png" alt="">
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span><img src="images/hot.png" alt="">Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="wrong question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="right question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【多选】</span>二、2第二题为多选题，<img src="images/hot.png" alt="">所有多选题在ul.question_list 标签的基础上添加question_duo_list类()。
+                        </div>
+                        <!--TODO 多选题型添加 question_duo_list类 如下-->
+                        <ul class="question_list question_duo_list">
+                            <li class="ui-row-flex">
+                                <output class="correct question_choose">A</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            三、这是个主观题There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday,There are ___ days ___ a
+                            week.
+                            They are ___ , Tuesday,There are ___ days ___ a week. They are ___ , Tuesday,
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>3、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose correct ">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type" data-type="dan">【单选】</span>4、第二个小题
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span> 5、小题的第三个( )。
+                                    </div>
+                                    <ul class="question_list question_duo_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            Monday1
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            四、有下列四种实验设计及操作，实验过程中其现象不足以说明CO2与NaOH溶液发生了反应的是：
+                            <img src="images/conimg1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>6甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>
+                            7、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。 甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span>会做</span></li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>不会做</span></li>
+                        </ul>
+                        <div class="question-analytic">
+                            <div class="analysis_btn">
+                                <button class="btn">查看解析</button>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>一、1甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。<img src="images/image001.png" alt="">
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span><img src="images/hot.png" alt="">Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="wrong question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="right question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【多选】</span>二、2第二题为多选题，<img src="images/hot.png" alt="">所有多选题在ul.question_list 标签的基础上添加question_duo_list类()。
+                        </div>
+                        <!--TODO 多选题型添加 question_duo_list类 如下-->
+                        <ul class="question_list question_duo_list">
+                            <li class="ui-row-flex">
+                                <output class="correct question_choose">A</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>我是超长选项我是超长选项我是超长选项我</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">C</output>
+                                <span>Monday1 Monday 1Monday 1Monday 1onday 1Mond1 Monday1</span>
+                            </li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">D</output>
+                                <span>Tuesday</span>
+                            </li>
+                        </ul>
+                        <div class="resolve">
+                            <div class="resolve-result">
+                                <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                    laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                    mollis orci, sed rhoncus sapien nunc eget odio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            三、这是个主观题There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday, WednesdThere are ___ days
+                            ___ a
+                            week.There are ___ days ___ a week. They are ___ , Tuesday,There are ___ days ___ a
+                            week.
+                            They are ___ , Tuesday,There are ___ days ___ a week. They are ___ , Tuesday,
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>3、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose correct ">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type" data-type="dan">【单选】</span>4、第二个小题
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span> 5、小题的第三个( )。
+                                    </div>
+                                    <ul class="question_list question_duo_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            Monday1
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section big_que">
+                    <div class="scroll_tit">
+                        <div class="question_title">
+                            四、有下列四种实验设计及操作，实验过程中其现象不足以说明CO2与NaOH溶液发生了反应的是：
+                            <img src="images/conimg1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <ul class="small-questions clearfix">
+                            <li class="aside_section">
+                                <div class="aside_scroll">
+                                    <div class="question_title">
+                                        <span class="title_type">【单选】</span>6甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                                    </div>
+                                    <ul class="question_list question_dan_list">
+                                        <li class="ui-row-flex">
+                                            <output class="correct question_choose">A</output>
+                                            <span> Monday 1Monday 1Monday1 Monday1Monday 1Monday 1Monday 1Mo</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">B</output>
+                                            <span>我是超长选项我是超长选项我是超长选项</span>
+                                        </li>
+                                        <li class="ui-row-flex">
+                                            <output class="question_choose">C</output>
+                                            <span>Monday1</span>
+                                        </li>
+                                    </ul>
+                                    <div class="resolve">
+                                        <div class="resolve-result">
+                                            <span class="right">正确答案：<i>B</i>，</span><span class="your">您的答案：<i>B</i>,回答错误。</span>
+                                        </div>
+                                        <div class="analytic">
+                                            <span class="tit">【解析】</span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                                laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin
+                                                sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                                nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus
+                                                mollis orci, sed rhoncus sapien nunc eget odio.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="aside_section">
+                    <div class="aside_scroll">
+                        <div class="question_title">
+                            <span class="title_type">【单选】</span>
+                            7、甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。 甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10 甲乙两数的比是10：9，则甲数占甲、乙两数和的(
+                            )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。
+                            甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10：9，则甲数占甲、乙两数和的( )。甲乙两数的比是10
+                        </div>
+                        <ul class="question_list question_dan_list">
+                            <li class="ui-row-flex">
+                                <output class="question_choose">A</output>
+                                <span>会做</span></li>
+                            <li class="ui-row-flex">
+                                <output class="question_choose">B</output>
+                                <span>不会做</span></li>
+                        </ul>
+                        <div class="question-analytic">
+                            <div class="analysis_btn">
+                                <button class="btn">查看解析</button>
+                            </div>
+                            <div class="analytic">
+                                <span class="tit">【解析】</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum
+                                    dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendumLorem ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+</div>
+
+<!--TODO v2.0交卷按钮修改 start-->
+<div class="paper-function clearfix">
+    <button class="paper-card-btn" id="answerCard"></button>
+    <button class="paper-col" id="collection"></button>
+    <button class="paper-submit" id="submitPaper"></button>
+    <div class="card-wrap">
+        <div class="paper-card">
+            <h5 class="title">答题卡 </h5>
+            <button class="close-card"></button>
+            <div class="card-scroll">
+                <ul class="answer-card clearfix">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="shadow"></div>
+<!--TODO v2.0交卷按钮修改 end-->
+
+<div class="dialog">
+    <div class="dialog_bg"></div>
+    <div class="dialog_info">
+        <section class="dialog_body">
+            <output class="dialog_tips">你还有试题未做完</output>
+            <output class="dialog_tips_msg">是否确定交卷？</output>
+            <!-- <output class="dialog_tips_msg">一旦提交不可修改，确认提交？</output> -->
+            <!-- <output class="dialog_tips_msg">你还有项目未答，确认提交？</output> -->
+        </section>
+        <footer class="dialog_footer">
+            <output class="dialog_button" id="submit-btn">确认</output>
+            <output class="dialog_button cancle_button">取消</output>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

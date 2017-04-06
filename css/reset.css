@@ -1,0 +1,38 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+.header{position:fixed;top:0;left:0;width:100%;height:4.4rem; line-height:4.4rem;background:#2c8aff; text-align:center; color:#fff; font-size:1.5rem; z-index:3;}
+.bk-icon{ width:2.3rem; height:2.2rem; display:inline-block; background:url(../images/bk.png) no-repeat; background-size:2.3rem 2.2rem; position:absolute; top:50%; margin-top:-1.1rem; left:1.5rem;}
+.side-icon{ width:2.3rem; height:0.6rem; background:url(../images/side-icon.png) no-repeat; background-size:2.3rem 0.6rem; position:absolute; top:50%; margin-top:-0.3rem; right:1.5rem;}
+.side-nav{display: none; background-color:#f7f7f7; font-size:1.4rem; color:#666; position:fixed; right:0; top:4.4rem; z-index:3; line-height:4rem; text-align:left; }
+.side-nav li{ padding:0 1.5rem 0 3.8rem;}
+.side-nav li.col-icon{ background:url(../images/col-icon.png) 1.6rem center no-repeat; background-size:1.5rem 1.4rem; border-bottom:1px solid #e6e6e6;}
+.side-nav li.ck-icon{ background:url(../images/ck-icon.png) 1.6rem center no-repeat; background-size:1.4rem 1.5rem;}
+.side-nav .arrow-icon{ width:1.1rem; height:0.6rem; padding:0;background:url(../images/arrow-icon.png) no-repeat; background-size:1.1rem 0.6rem; position:absolute; top:-0.6rem; right:2.1rem;}
+.shadow{display:none;position: fixed;top:0;right:0;left:0;height:100%;width:100%;background: rgba(0,0,0,0.6);}
